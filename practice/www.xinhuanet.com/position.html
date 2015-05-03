@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>定位练习</title>
+	<style>
+		/* 初始化CSS */
+        html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0;padding:0;}
+        fieldset, img { border:none; }
+        img{display: block;}
+        address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+        ul, ol { list-style:none; }
+        input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+        input::-moz-focus-inner { border:none; padding:0; }
+        select, input { vertical-align:middle; }
+        select, input, textarea { font-size:12px; margin:0; }
+        input[type="text"], input[type="password"], textarea { outline-style:none; -webkit-appearance:none; }
+        textarea { resize:none; }
+        table { border-collapse:collapse; }
+        body { color:#333;font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ }
+        .clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+        .clearfix { zoom:1; }
+        .clearit { clear:both; height:0; font-size:0; overflow:hidden; }
+        a { color:#666; text-decoration:none; }
+        a:visited { color:#666; }
+        a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline;}
+		/* keyword css */
+		.keyword {width:786px;height:67px;position:relative;margin:auto;border:1px solid #888;}
+		.keyword div {position:absolute;}
+		.keyword .k1 {width:87px;height:67px;background:#87B8E1;left:0px;top:0px;}
+		.keyword .k2 {width:88px;height:33px;background:#0ff;left:88px;top:0px;}
+		.keyword .k3 {width:133px;height:33px;background:#0f2;left:88px;top:34px;}
+		/* piclist css */
+		.piclist {width:148px;height:98px;position:relative;margin:auto;border:1px solid #888;}
+		.piclist div {position:absolute;}
+		.piclist .img {width:148px;height:98px;background:#87B8E1;left:0px;top:0px;}
+		.piclist .bg {width:100%;height:30px;background:#000;left:0px;bottom:0px;opacity:0.4;}
+		.piclist .txt {width:100%;height:30px;left:0px;bottom:0px;color:#fff;line-height:30px;text-align:center;}
+		/* a link */
+		div .ask {margin:auto;display:block;width:148px;color:#000;}
+		div .ask:hover {color:#f0f;}
+		div .ask_red {color:#00f;}
+	</style>
+</head>
+<body>
+	<!-- keyword -->
+	<div class="keyword">
+		<div class="k1"></div>
+		<div class="k2"></div>
+		<div class="k3"></div>
+	</div>
+	<!-- keyword over -->
+	<!-- piclist -->
+	<div class="piclist">
+		<div class="img"></div>
+		<div class="bg"></div>
+		<div class="txt">xxxx</div>
+	</div>
+	<!-- piclist over -->
+	<!-- a link -->
+	<div>
+		<a class="ask" href="#">ask yupengsir.com</a>
+	</div>
+	<div>
+		<a class="ask ask_red" href="#">ask yupengsir.com</a>
+	</div>
+	<!-- a link over -->
+</body>
+</html>
