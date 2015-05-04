@@ -54,7 +54,7 @@ a{text-decoration:none;}
 .zhengwen_6 a{color:#484848;font-size:14px;float:left;margin:5px 5px;}
 .zhengwen_7{border-bottom:1px dashed #e1e1e1;width:780px;float:left;margin-left:10px;margin-top:32px;}
 .zhengwen_8{margin-top:15px;}
-.zhengwen_9{float:left;margin-top:4px;}
+.zhengwen_9{}
 .zhengwen_9 a{color:#484848;}
 .zhengwen_r2{width:175px;height:40px;background:#C0BCFF;line-height:40px;text-align:center;margin-top:10px;margin-left:20px;font-size:30px;font-family: 宋体;text-shadow:5px 3px 2px black;color:red;font-weight: bold;}
 .zhengwen_r3{width:175px;height:40px;background:#C0BCFF;line-height:40px;text-align:center;margin-top:10px;margin-left:20px;font-size:20px;font-family: 宋体;text-shadow:5px 3px 2px black;color:red;font-weight: bold;}

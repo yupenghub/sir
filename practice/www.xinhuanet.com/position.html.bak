@@ -34,7 +34,7 @@
 		.piclist {width:148px;height:98px;position:relative;margin:auto;border:1px solid #888;}
 		.piclist div {position:absolute;}
 		.piclist .img {width:148px;height:98px;background:#87B8E1;left:0px;top:0px;overflow:hidden;}
-		.piclist .img img {width:148px;}
+		.piclist .img img {width:148px;height:98px;}
 		.piclist .bg {width:100%;height:30px;background:#000;left:0px;bottom:0px;opacity:0.4;}
 		.piclist .txt {width:100%;height:30px;left:0px;bottom:0px;color:#fff;line-height:30px;text-align:center;}
 		/* a link */
