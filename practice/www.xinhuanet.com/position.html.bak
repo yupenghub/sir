@@ -34,13 +34,21 @@
 		.piclist {width:148px;height:98px;position:relative;margin:auto;border:1px solid #888;}
 		.piclist div {position:absolute;}
 		.piclist .img {width:148px;height:98px;background:#87B8E1;left:0px;top:0px;overflow:hidden;}
-		.piclist .img img {width:148px;height:98px;}
+		.piclist .img img {width:148px;}
 		.piclist .bg {width:100%;height:30px;background:#000;left:0px;bottom:0px;opacity:0.4;}
 		.piclist .txt {width:100%;height:30px;left:0px;bottom:0px;color:#fff;line-height:30px;text-align:center;}
 		/* a link */
 		div .ask {margin:auto;display:block;width:148px;color:#000;}
 		div .ask:hover {color:#f0f;}
 		div .ask_red {color:#00f;}
+		/* a link over*/
+		.juedui{width:200px;height:200px;position:relative;margin:auto;border:1px solid red;}
+		.juedui div{position:absolute;}
+		.juedui_1{width:50px;height:60px;background:#000;left:0px;top:10px;}
+		.juedui_2 img{width:70px;height:30px;}
+		.juedui_2{width:70px;height:30px;background:red;left:51px;top:10px;}
+		.juedui_3{width:70px;height:15px;font-size:12px;text-align:center;top:13px;}
+		.juedui_4{width:70px;height:15px;top:13px;background:#000;opacity:0.3;}
 	</style>
 </head>
 <body>
@@ -66,5 +74,11 @@
 		<a class="ask ask_red" href="#">ask yupengsir.com</a>
 	</div>
 	<!-- a link over -->
+	<div class="juedui">
+		<div class="juedui_1"></div>
+		<div class="juedui_2"><img src="images/QQ截图20150502224508.png"</div>
+		<div class="juedui_3"><a href="#">英国狗</a></div>
+		<div class="juedui_4"></div>
+	</div>
 </body>
 </html>

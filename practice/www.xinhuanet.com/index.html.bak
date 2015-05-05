@@ -54,7 +54,7 @@ a{text-decoration:none;}
 .zhengwen_6 a{color:#484848;font-size:14px;float:left;margin:5px 5px;}
 .zhengwen_7{border-bottom:1px dashed #e1e1e1;width:780px;float:left;margin-left:10px;margin-top:32px;}
 .zhengwen_8{margin-top:15px;}
-.zhengwen_9{}
+.zhengwen_9{float:left;margin-top:4px;}
 .zhengwen_9 a{color:#484848;}
 .zhengwen_r2{width:175px;height:40px;background:#C0BCFF;line-height:40px;text-align:center;margin-top:10px;margin-left:20px;font-size:30px;font-family: 宋体;text-shadow:5px 3px 2px black;color:red;font-weight: bold;}
 .zhengwen_r3{width:175px;height:40px;background:#C0BCFF;line-height:40px;text-align:center;margin-top:10px;margin-left:20px;font-size:20px;font-family: 宋体;text-shadow:5px 3px 2px black;color:red;font-weight: bold;}
@@ -72,7 +72,43 @@ a{text-decoration:none;}
 .daohang_l2{margin-left:-10px;}
 .daohang_l2 li a{color: #0E649A;font-weight: bold;font-size: 14px;text-align: left;float:left;margin:10px 10px;}
 .daohang_l3 li a{color: #484848;font-size: 14px;font-family:宋体;float:left;margin:6px 0px;}
-.daohang_l4{margin-top:20px;width:800px;}
+.daohang_l4{margin-top:20px;width:800px;height:70px;position:relative;}
+.daohang_l4 div{position:absolute;}
+.weishang{width:88px;height:67px;left:0px;top:0px;background:#ACE2FF;color:#fff;font-size:18px;text-align:center;line-height:69px;font-weight:bold;font-family: 微软雅黑;}
+.mianmo{width:88px;height:33px;left:89px;top:0px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.bafei{width:199px;height:33px;left:178px;top:0px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.daxuesheng{width:128px;height:67px;background:#0572FF;color:#fff;font-size:18px;text-align:center;line-height:69px;font-weight:bold;font-family: 微软雅黑;left:379px;top:0px;}
+.gaokao{width:133px;height:33px;right:159px;top:0px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.jingcha{width:145px;height:33px;right:13px;top:0px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.toudu{width:133px;height:33px;left:89px;bottom:3px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.ditou{width:69px;height:33px;left:223px;bottom:3px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.su{width:84px;height:33px;left:293px;bottom:3px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.meiguo{width:73px;height:33px;left:508px;bottom:3px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.yuebing{width:205px;height:33px;right:13px;bottom:3px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
+.beijingtu{width:800px;height:196px;border:1px solid red;margin-top:10px;position:relative;}
+.beijingtu div{position:absolute;}
+.img{width:295px;height:196px;background:url(images/beijingtu.png);}
+.bg{width:285px;height:28px;background:#000;margin:auto;left:5px;bottom:0px;opacity:0.4;}
+.text{line-height:28px;bottom:0px;font-size:12px;text-align: center;width:285px;}
+.text{font-size:12px;color:#fff;text-align:center;}
+.img_1{width:148px;height:93px;background:url(images/1115181933_title0h.jpg);left:310px;top:0px;}
+.bacg{width:148px;height:28px;background:#000;margin:auto;bottom:0px;opacity:0.4;}
+.txt{line-height:28px;bottom:0px;font-size:12px;text-align: center;width:148px;color:#fff;}
+.img_2{width:148px;height:93px;background:url(images/1115174426_title0h.jpg);left:310px;bottom:0px;}
+.bacg_1{width:148px;height:28px;background:#000;margin:auto;bottom:0px;opacity:0.4;}
+.txt_1{line-height:28px;bottom:0px;font-size:12px;text-align: center;width:148px;color:#fff;}
+.img_3{width:148px;height:93px;background:url(images/1115174433_title0h.jpg);left:474px;bottom:0px;}
+.bacg_2{width:148px;height:28px;background:#000;margin:auto;bottom:0px;opacity:0.4;}
+.txt_2{line-height:28px;bottom:0px;font-size:12px;text-align: center;width:148px;color:#fff;}
+.img_4{width:148px;height:93px;background:url(images/1115176144_title0h.jpg);left:474px;top:0px;}
+.bacg_3{width:148px;height:28px;background:#000;margin:auto;bottom:0px;opacity:0.4;}
+.txt_3{line-height:28px;bottom:0px;font-size:12px;text-align: center;width:148px;color:#fff;}
+.img_5{width:148px;height:93px;background:url(images/1115174450_title0h.jpg);left:637px;top:0px;}
+.bacg_4{width:148px;height:28px;background:#000;margin:auto;bottom:0px;opacity:0.4;}
+.txt_4{line-height:28px;bottom:0px;font-size:12px;text-align: center;width:148px;color:#fff;}
+.img_6{width:148px;height:93px;background:url(images/1115174428_title0h.jpg);left:637px;bottom:0px;}
+.bacg_5{width:148px;height:28px;background:#000;margin:auto;bottom:0px;opacity:0.4;}
+.txt_5{line-height:28px;bottom:0px;font-size:12px;text-align: center;width:148px;color:#fff;}
 .daohang_l5{width:409px;}
 .daohang_la li{width:90px;height:68px;background:#83C4FC;color:white;line-height:68px;text-align:center;}
 .daohang_z1 a{font-size:16px;font-family: 微软雅黑;color: #0E649A;font-weight: bold;float:left;}
@@ -529,29 +565,22 @@ a{text-decoration:none;}
 		<div style="border-top:1px dotted #6F93B4;margin-top:20px;width:763px;float:left;"></div>
 		<div class="clear"></div>
 		<div class="daohang_l4">
-			<ul>
-				<li style="width:90px;height:68px;background:#83C4FC;color:white;line-height:68px;text-align:center;float:left;"><a href="#">神器APP</a></li>
-				<li style="width:88px;height:33px;background:#008AFF;color:white;line-height:33px;text-align:center;float:left;margin-left:1px;"><a href="#">贪官忏悔</a></li>
-				<li style="width:200px;height:33px;background: #699FFF;color:white;line-height:33px;text-align:center;float:left;margin-left:1px;"><a href="#">公务员眼中公款吃喝变化</a></li>
-				<li style="width:135px;height:33px;background:#008AFF;color:white;line-height:33px;text-align:center;float:left;margin-left:-289px;margin-top:35px;"><a href="#">民告官案或大增</a></li>
-				<li style="width:70px;height:33px;background:#008AFF;color:white;line-height:33px;text-align:center;float:left;margin-top:35px;margin-left:-153px;"><a href="#">无人工厂</a></li>
-				<li style="width:82px;height:33px;background:#008AFF;color:white;line-height:33px;text-align:center;float:left;margin-left:-82px;margin-top:35px;"><a href="#">导游骂游客</a></li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-		<div class="daohang_l5" style="margin-left:382px;margin-top:-100px;"
-			<ul>
-				<li style="width:128px;height:68px;background:#83C4FC;color:white;line-height:68px;text-align:center;float:left;"><a href="#">禁止游客抠鼻</a></li>
-				<li style="width:133px;height:33px;background:#008AFF;color:white;line-height:33px;text-align:right;float:left;margin-left:1px;"><a href="#">英王室迎来小公主</a></li>
-				<li style="width:146px;height:33px;background:#008AFF;color:white;line-height:33px;text-align:center;float:left;margin-left:1px;"><a href="#">高校自主招生名单</a></li>
-				<li style="width:74px;height:33px;background:#008AFF;color:white;line-height:33px;text-align:center;float:left;margin-left:1px;margin-top:2px;"><a href="#">格蕾案</a></li>
-				<li style="width:205px;height:33px;background:#008AFF;color:white;line-height:33px;text-align:center;float:left;margin-left:1px;margin-top:2px;"><a href="#">李显龙自称拜托前列腺癌</a></li>
-			</ul>
+			<div class="weishang">面膜微商</div>
+			<div class="mianmo">天价米饭</div>
+			<div class="bafei">巴菲特为中国经济点赞</div>
+			<div class="daxuesheng">大学生偶像观</div>
+			<div class="gaokao">高考加分奇葩现象</div>
+			<div class="jingcha">警察拍防骗宣传片</div>
+			<div class="toudu">偷渡者乱坟堆</div>
+			<div class="ditou">低头族</div>
+			<div class="su">苏文茂逝世</div>
+			<div class="meiguo">美国虎妈</div>
+			<div class="yuebing">俄红场阅兵将展示尖端武器</div>
 		</div>
 		<div class="clear"></div>
 		<div style="margin-top:20px;">
 			<div class="daohang_z1">
-			<a href="#">新华深度</a>
+			<a href="#">炫图/热图</a>
 			<p>In-depth</p>
 			<img src="images/QQ截图20150503211218.png">
 			</div>
@@ -564,7 +593,34 @@ a{text-decoration:none;}
 			<div style="border-bottom:1px solid #e7e7e7;width:636px;float:left;margin-top:-1px;margin-left:152px;"></div>
 			<div class="clear"></div>
 			<div class="beijingtu">
-				<img src="images/QQ截图20150504134904.png">
+				<div class="img">
+					<div class="bg"></div>
+					<div class="text">时尚界奥斯卡</div>
+				</div>
+				<div class="img_1">
+					<div class="bacg"></div>
+					<div class="txt">奇葩男子勇闯10米跳台</div>
+				</div>
+				<div class="img_2">
+					<div class="bacg_1"></div>
+					<div class="txt_1">成了生日现金铺满沙发</div>
+				</div>
+				<div class="img_3">
+					<div class="bacg_2"></div>
+					<div class="txt_2">校花被赞章子怡最美替身</div>
+				</div>
+				<div class="img_4">
+					<div class="bacg_3"></div>
+					<div class="txt_3">校花被赞章子怡最美替身</div>
+				</div>
+				<div class="img_5">
+					<div class="bacg_4"></div>
+					<div class="txt_4">校花被赞章子怡最美替身</div>
+				</div>
+				<div class="img_6">
+					<div class="bacg_5"></div>
+					<div class="txt_5">校花被赞章子怡最美替身</div>
+				</div>
 			</div>
 			<div style="width:1000px;margin:auto;"><img src="images/QQ截图20150504135056.png" style="margin-top:15px;"></div>
 		</div>
