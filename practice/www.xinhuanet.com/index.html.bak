@@ -22,8 +22,8 @@ a{text-decoration:none;}
 .dingbu_6{display:block;float:left;font-size:12px;color:#0F649B;font-family: 微软雅黑;margin-left:8px;}
 .dingbu_7{display:block;float:left;font-size:12px;color:#0F649B;font-family: 微软雅黑;margin-left:20px;}
 .dingbu_8{float:left;margin-top:-15px;margin-left:6px;}
-.dingbu_9 input{margin-left:10px;float:left;width:197px;height:39px;margin-top:-15px;border: 1px solid #488BB5; placeholder="新华搜索" }
-.dingbu_9 img{position:absolute;right:320px;top:95px;float:left;placeholder="新华搜索";padding-left:10px;}
+.dingbu_9 input{margin-left:10px;float:left;width:197px;height:39px;margin-top:-15px;border: 1px solid #488BB5;}
+.dingbu_9 img{position:absolute;right:320px;top:95px;float:left;padding-left:10px;}
 .dingbu_10{height:40px;width:115px;background:#48A6EB;float:left;margin-left:10px;margin-top:-15px;line-height:40px;text-align:center;font-size:12px;color:blue;}
 .dingbu_11{float:left;margin-top:10px;}
 .dingbu_11 a {color:#0F649B;}
@@ -229,6 +229,26 @@ a{text-decoration:none;}
 .Knee_r_9{font-size:12px;text-align:center;color:white;bottom:10px;line-height:20px;left:165px;}
 .Knee_r_10{margin-top:10px;}
 .Knee_r_10 a {font-size: 14px;font-weight: normal;font-style: normal;font-family: 宋体;color:#333;float:left;margin:6px 7px;}
+.kuang{border-left:1px solid #4A95D6;border-top:1px solid #4A95D6;border-bottom:1px solid #4A95D6;height:50px;width:89px;margin-top:15px;background:#EDF6FD;color:#196297;font-size:14px;font-family: 宋体;font-weight:bold;text-align:center;line-height:50px;float:left;}
+.kuang_1{width:218px;height:230px;border:1px solid red;float:left;margin-top:15px;border:1px solid #4A95D6;margin-top:-172px;}
+.kuang_1 img {width:210px;height:128px;margin:5px 5px;}
+.kuang_1 a{margin-top:10px;}
+.kuang_1 p{font-size:12px;color:#676767;margin:10px 5px;}
+.kuang_2{height:50;width:89px;background:red;}
+.kuang_3{height:50px;width:89px;margin-top:10px;background:#EDF6FD;color:#196297;font-size:14px;font-family: 宋体;font-weight:bold;text-align:center;line-height:50px;float:left;}
+.kuang_4{margin-top:10px;}
+.kuang_5{margin-top:10px;}
+.kuang_5 img {float:left;}
+.kuang_5 a {margin-top:95px;margin-left:-110px;font-size:12px;color:#000;font-weight:normal;}
+.kuang_6 li a{font-size:14px;color:#333;margin:10px 10px;}
+.kuang_6 li{margin:7px 10px;}
+.kuang_7{height:70px;border-bottom:1px dotted #e1e1e1;margin-top:20px;}
+.kuang_8{background:#C81A13;height:16px;width:16px;text-align:center;font-size:12px;line-height:16px;float:left;color:white;}
+.kuang_7 a{color:#333;margin-left:10px;}
+.kuang_9{border:1px dotted #e1e1e1;margin-top:8px;}
+.kuang_10{height:30px;margin-top:5px;border-bottom:1px dotted #e1e1e1;}
+.kuang_11{background:#C81A13;height:16px;width:16px;text-align:center;font-size:12px;line-height:16px;float:left;color:white;}
+.kuang_12 a{margin-left:10px;color:#717171;}
 </style>
 </head>
 <body>
@@ -847,7 +867,7 @@ a{text-decoration:none;}
 			</ul>
 		</div>
 		<div class="clear"></div>
-		<input type="text"placeholder="新华搜索" style="width:132px;height:18px;border:1px solid #9C9C9C;padding:5px;margin-left:10px;float:left;">
+		<input type="text" placeholder="新华搜索" style="width:132px;height:18px;border:1px solid #9C9C9C;padding:5px;margin-left:10px;float:left;">
 		<img src="images/QQ截图20150503124312.png" style="margin-top:-1px;float:left;margin-left:-1px;">
 		<div class="clear"></div>
 		<div class="daohang_r5">
@@ -1433,13 +1453,88 @@ a{text-decoration:none;}
 		</div>
 		<div class="clear"></div>
 		<div style="border:1px solid  #0F6598;width:1000px;margin-top:17px;"></div>
-		<a href="#">股市</a>
-		<div class="Knee_l1">
-			<a href="#">股评。</a>
-			<a href="#">公司。</a>
-			<a href="#">基金</a>
+		<div style="margin-top:10px;">
+			<a href="#">股市</a>
+			<div class="Knee_l1">
+				<a href="#">股评。</a>
+				<a href="#">公司。</a>
+				<a href="#">基金</a>
+			</div>
+			<div class="clear"></div>
+		<div style="width:90px;">
+			<div class="kuang">
+				<p>谈股论金</p>
+			</div>
+			<div class="kuang_3">
+				<p>公司情报站</p>
+			</div>
+			<div class="kuang_3">
+				<p>监管直通车</p>
+			</div>
+			<div class="kuang_3">
+				<p>大数据解股</p>
+			</div>
+		</div>
+		<div class="kuang_1">
+				<img src="images/1115183843_title0h.png">
+				<div style="margin:5px 5px;">
+				<a href="#">财报收官：看运营商的纠结</a>
+				<p>超2000家上市公司成绩单暴露镁光灯下，如一副悲喜录述说着沉浮与枯荣</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div style="border:1px solid  #0F6598;width:1000px;margin-top:17px;"></div>
+		<div class="kuang_4">
+			<a href="#">生活圈</a>
+			<div class="Knee_l1">
+				<a href="#">出国。</a>
+				<a href="#">旅游。</a>
+				<a href="#">时尚</a>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="kuang_5">
+			<img src="images/1115182525_title0h.jpg">
+			<a href="#" style="float:left;">高空俯瞰纳米比亚</a>
+			<div class="kuang_6"> 
+				<ul>
+					<li><a href="#">喝中药能不能吃糖？</a></li>
+					<li><a href="#">84消毒液+洁厕剂 有毒！</a></li>
+					<li><a href="#">压力大会引发耳鸣吗？</a></li>
+					<li><a href="#">立夏:称人轻重 启冰尝鲜</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="kuang_7">
+				<div class="kuang_8">1</div>
+				<img src="images/1115185476_title0h.jpg" style="margin-left:10px;">
+				<a href="#">北京动物园新生宝宝首秀</a>
+				<div class="clear"></div>
+				<div class="kuang_9"></div>
+			</div>
+			<div class="clear"></div>
+			<div class="kuang_10">
+				<div class="kuang_11">2</div>
+				<div class="kuang_12"><a href="#">有趣！萌宠卖萌超级有爱</a></div>
+			</div>
+			<div class="kuang_10">
+				<div class="kuang_11">3</div>
+				<div class="kuang_12"><a href="#">《回家吃饭》霸气外漏的“霸王鸡”</a></div>
+			</div>
+			<div class="kuang_10">
+				<div class="kuang_11" style="background:#a2a2a2;">4</div>
+				<div class="kuang_12"><a href="#">《绘见烘焙》:DIY吃不胖的紫薯蛋糕</a></div>
+			</div>
+			<div class="kuang_10">
+				<div class="kuang_11" style="background:#a2a2a2;">5</div>
+				<div class="kuang_12"><a href="#">天然“良药”缓解身体不适</a></div>
+			</div>
+			</div>
+			<div style="border:1px solid  #0F6598;width:1000px;margin-top:17px;"></div>
+			<div></div>
 		</div>
 	</div>
+
 <!-- knee_1 over -->
 <!-- knee_2 begin -->
 	<div class="Knee_z">
