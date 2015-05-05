@@ -85,7 +85,7 @@ a{text-decoration:none;}
 .su{width:84px;height:33px;left:293px;bottom:3px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
 .meiguo{width:73px;height:33px;left:508px;bottom:3px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
 .yuebing{width:205px;height:33px;right:13px;bottom:3px;background:#ACE2FF;color:#fff;font-size:14px;text-align:center;line-height:33px;font-weight:bold;font-family: 微软雅黑;}
-.beijingtu{width:800px;height:196px;border:1px solid red;margin-top:10px;position:relative;}
+.beijingtu{width:800px;height:196px;margin-top:10px;position:relative;}
 .beijingtu div{position:absolute;}
 .img{width:295px;height:196px;background:url(images/beijingtu.png);}
 .bg{width:285px;height:28px;background:#000;margin:auto;left:5px;bottom:0px;opacity:0.4;}
@@ -189,6 +189,46 @@ a{text-decoration:none;}
 .waist_r2{width:40px;height:220px;float:left;background:red;text-align:center;line-height:40px;}
 .waist_r5{margin-top:18px;}
 .waist_r5 a{font-size: 16px;font-family: 微软雅黑;color: #0E649A;font-weight: bold;float:left;}
+/* border css*/
+.border{width:1000px;margin-top:11px;border:1px solid #e1e1e1;float:left;margin-left:175px;padding:5px 5px;}
+.wuxulie{width:124px;float:left;}
+.wuxulie li a{float:left;font-size:13px;color:#333;line-height:21px;}
+/* Knee css */
+.Knee{width:1000px;margin:auto;margin-top:20px;}
+.Knee_l{width:310px;float:left;border:1px solid red;}
+.Knee_z{width:315px;float:left;border:1px solid red;margin-left:30px;margin-top:10px;}
+.Knee_r{width:310px;float:left;border:1px solid red;margin-left:20px;margin-top:10px;}
+.Knee_l a{color:#0466A3;font-size: 16px;font-weight: bold;}
+.Knee_l1{margin-top:-15px;margin-left:170px;}
+.Knee_l1 a{color:#7D7D7D;font-size: 12px;float:left;font-style: normal;font-weight: normal;}
+.bgliebiao{width:308px;margin-top:15px;float:left;}
+.bgliebiao_1{height:29px;width:100%;background:url(images/xh_bg.png) repeat-x 0px -320px;float:left;}
+.wenzi{color:white;line-height:29px;text-align:left;margin-left:10px;float:left;font-weight:bold;}
+.bgliebiao_2{border:1px solid #e1e1e1;height:30px;margin-top:138px;background:#F4F4F4;}
+.bgliebiao_2 p{font-size: 14px;color: #0065A5;font-weight:bold;line-height:30px;margin-left:10px;}
+.bgliebiao_3{border:1px solid #e1e1e1;height:30px;background:#F4F4F4;}
+.bgliebiao_3 p{font-size: 14px;color: #0065A5;font-weight:bold;line-height:30px;margin-left:10px;}
+.bgliebiao_4{border:1px solid #e1e1e1;height:30px;background:#F4F4F4;}
+.bgliebiao_4 p{font-size: 14px;color: #0065A5;font-weight:bold;line-height:30px;margin-left:10px;}
+.Knee_z a{color:#0466A3;font-size: 16px;font-weight: bold;}
+.Knee_z1{margin-top:-15px;margin-left:170px;}
+.Knee_z1 a{color:#7D7D7D;font-size: 12px;float:left;font-style: normal;font-weight: normal;}
+.Knee_z2{margin-top:10px;}
+.Knee_z2 a{color:#0466A3;font-size: 14px;font-weight: bold;margin-left:10px;}
+.Knee_z3 li a {float:left;color:#000;font-size: 14px;font-weight: normal;font-style: normal;font-family: 宋体;margin:8px 10px;}
+.Knee_r a{color:#0466A3;font-size: 16px;font-weight: bold;}
+.Knee_r_2{margin-top:-15px;margin-left:210px;}
+.Knee_r_2 a{color:#7D7D7D;font-size: 12px;float:left;font-style: normal;font-weight: normal;}
+.Knee_r_3{position:relative;height:120px;margin-top:10px;}
+.Knee_r_3 div{position:absolute;}
+.Knee_r_4{height:100px;width:145px;background:url(images/127766763_title0h.png);top:0px;left:0px;}
+.Knee_r_5 {width:145px;height:20px;background:#000;opacity:0.4;bottom:10px;}
+.Knee_r_6{font-size:12px;text-align:center;color:white;bottom:10px;line-height:20px;left:5px;}
+.Knee_r_7{height:100px;width:145px;background:url(images/1115181389_title0h.jpg);top:0px;left:165px;}
+.Knee_r_8 {width:145px;height:20px;background:#000;opacity:0.4;bottom:10px;left:165px;}
+.Knee_r_9{font-size:12px;text-align:center;color:white;bottom:10px;line-height:20px;left:165px;}
+.Knee_r_10{margin-top:10px;}
+.Knee_r_10 a {font-size: 14px;font-weight: normal;font-style: normal;font-family: 宋体;color:#333;float:left;margin:6px 7px;}
 </style>
 </head>
 <body>
@@ -1325,8 +1365,143 @@ a{text-decoration:none;}
 		</div>
 	</div>
 <!-- waist right end -->
+<div class="clear"></div>
+</div>
+<!-- waist end -->
+<!-- border begin -->
+<div class="border">
+	<div class="wuxulie">
+		<ul>
+			<li><a href="#">有机樱桃火爆预定中</a></li>
+			<li><a href="#">极品沉香邀您品鉴</a></li>
+			<li><a href="#">新华网航空频道</a></li>
+			<li><a href="#">放孔明灯 庆傣历新年</a></li>
+			<li><a href="#">高速路免费七大规则</a></li>
+		</ul>
+	</div>
+	<div class="wuxulie">
+		<ul>
+			<li><a href="#">直供精选大连海参</a></li>
+			<li><a href="#">解密中兴速度与激情</a></li>
+			<li><a href="#">网订海航机票遭乌龙</a></li>
+			<li><a href="#">未来航企卖生活方式</a></li>
+			<li><a href="#">2015年省钱10大招</a></li>
+		</ul>
+	</div>
+	<img src="images/1114339545_title0h.jpg" style="float:left;padding:0px 10px;;">
+	<div class="wuxulie">
+		<ul>
+			<li><a href="#">航拍地球各处美景</a></li>
+			<li><a href="#">赏花短途出境成热门</a></li>
+			<li><a href="#">五大可一日游的国家</a></li>
+			<li><a href="#">直击五星酒店"变局"</a></li>
+			<li><a href="#">景区"限客"要有预警</a></li>
+		</ul>
+	</div>
+	<div class="wuxulie" style="margin-left:10px;">
+		<ul>
+			<li><a href="#">京推21条红色游线路 </a></li>
+			<li><a href="#">值得一去的南亚岛国</a></li>
+			<li><a href="#">机上饮酒有讲究</a></li>
+			<li><a href="#">主动"降星"为哪般？</a></li>
+			<li><a href="#">9个美爆的冷门目的地 </a></li>
+		</ul>
+	</div>
 </div>
 <div class="clear"></div>
-<!-- waist end -->
+<!-- border over -->
+<!-- knee begin -->
+<div class="Knee">
+<div style="border:1px solid  #0F6598;width:1000px;"></div>
+<!-- knee_1 begin -->
+	<div class="Knee_l" style="margin-top:10px;">
+		<a href="#">原味儿</a>
+		<div class="Knee_l1">
+			<a href="#">思客会。</a>
+			<a href="#">思客讲堂。</a>
+			<a href="#">图咖</a>
+		</div>
+		<div class="clear"></div>
+		<div class="bgliebiao">
+			<div class="bgliebiao_1">
+			<div class="wenzi">女大十八变！窦靖童变漂亮了</div>
+			<img src="images/1115178723_title0h.jpg" style="float:left;">
+			</div>
+			<div class="bgliebiao_2" style=""><p>这才是阳台！你家的只是晾衣台<p></div>
+			<div class="bgliebiao_3"><p>废物利用最高境界<p></div>
+			<div class="bgliebiao_4"><p>孩子最渴望的10件礼物<p></div>
+		</div>
+		<div class="clear"></div>
+		<div style="border:1px solid  #0F6598;width:1000px;margin-top:17px;"></div>
+		<a href="#">股市</a>
+		<div class="Knee_l1">
+			<a href="#">股评。</a>
+			<a href="#">公司。</a>
+			<a href="#">基金</a>
+		</div>
+	</div>
+<!-- knee_1 over -->
+<!-- knee_2 begin -->
+	<div class="Knee_z">
+		<a href="#">发展论坛</a>
+		<div class="Knee_z1">
+			<a href="#">深水。</a>
+			<a href="#">曝光台。</a>
+			<a href="#">排行榜</a>
+		</div>
+		<div class="clear"></div>
+		<div class="Knee_z2"><img src="images/QQ截图20150501232137.png"><a href="#">女司机随意变道两次别车,就该被打吗?</a></div>
+		<div class="Knee_z3">
+			<ul>
+				<li><a href="#">“五毒俱全”的深圳“老虎”教会我们什么</a></li>
+				<li><a href="#">蒋尊玉何以对嫖娼和情妇堕胎毫不避讳</a></li>
+				<li><a href="#">花170万救死刑犯值吗</a></li>
+				<li><a href="#">倪萍曝至今唯一后悔事</a></li>
+				<li><a href="#">山西补官何不全国招考</a></li>
+				<li><a href="#">大陆最贫困的群体</a></li>
+				<li><a href="#">公务员仕途进阶5阶段</a></li>
+				<li><a href="#">揭秘当今公款报销流程</a></li>
+				<li><a href="#">厨房里9大"食物医生"</a></li>
+				<li><a href="#">最便宜的10张防癌处方</a></li>
+				<li><a href="#">女人绝不能走错17步</a></li>
+				<li><a href="#">近9成地区出现这些骗局</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+<!-- knee_2 over -->
+<!-- knee_3 begin -->
+	<div class="Knee_r">
+		<div class="Knee_r_1">
+			<a href="#">博客.微博</a>
+			<div class="Knee_r_2">
+				<a href="#">论件。</a>
+				<a href="#">视界。</a>
+				<a href="#">辣条</a>
+			</div>
+		<div class="clear"></div>
+		<div class="Knee_r_3">
+			<div class="Knee_r_4"></div>
+			<div class="Knee_r_5"></div>
+			<div class="Knee_r_6"><p>公务员离职潮到底来没来</p></div>
+			<div class="Knee_r_7"></div>
+			<div class="Knee_r_8"></div>
+			<div class="Knee_r_9"><p>张泉灵成名背后的故事</p></div>
+		</div>
+		<div class="Knee_r_10">
+			<ul>
+				<li><a href="#">对被质疑的年轻干部我充满信心，底气何来?</a></li>
+				<li><a href="#">揭程慕阳高调混迹野心</a></li>
+				<li><a href="#">点赞余彭年裸捐93亿</a></li>
+				<li><a href="#">7成半股民赚了谁的钱</a></li>
+				<li><a href="#">美女给哨兵擦汗合适吗</a></li>
+				<li><a href="#">副市长特殊功夫伪装16年</a></li>
+				<li><a href="#">雨水也成反腐利器</a></li>
+			</ul>
+		</div>
+	</div>
+<!-- knee_3 over -->
+</div>
+<!-- knee over -->
 </body>
 </html>
