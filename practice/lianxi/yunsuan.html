@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>练习算数运算符和赋值运算符</title>
+<style type="texe./css">body{margin:0px;padding:0px;}</style>
+</head>
+<body>
+<script>
+	var sum=50;
+	var sum1=30;
+	var sum2=sum+sum1;
+	document.write(sum+"和"+sum1+"相加的表达式为："+sum2+"<hr />");
+	sum2=sum-sum1;
+	document.write(sum+"与"+sum1+"相减的表达式的值为："+sum2+"<hr />");
+	sum2=sum%sum1;
+	document.write(sum+"和"+sum1+"取余的表达式的值为："+sum2+"<hr />");
+	var unm=200;
+	var unm1=100;
+	unm+=unm1;
+	document.write("加赋值后unm的值为："+unm+"<hr />");
+	unm-=unm1;
+	document.write("减赋值后unm的值为："+unm+"<hr />");
+	unm*=unm1;
+	document.write("乘赋值后unm的值为："+unm+"<hr />");
+	unm%=unm1;
+	document.write("除赋值后unm的值为："+unm+"<hr />")
+	var sun=50;
+	var sun1;
+	var sun1=sun++;
+	document.write("sun=50;sun1;<hr />");
+	document.write("sun1=sun++运算后的sun1的值为："+sun1+",而sun的值为"+sun+"<hr />");
+	var sun1=++sun;
+	document.write("sun1=++sun运算后的sun1的值为："+sun1+";而sun的值为"+sun+"<hr />");
+	var sun1=sun--;
+	document.write("sun1=sun--运算后的sun1的值为："+sun1+",而sun的值为"+sun+"<hr />");
+	var sun1=--sun;
+	document.write("sun1=--sun运算后的sun1的值为："+sun1+",而sun的值为"+sun+"<hr />");
+</script>
+</body>
+</html>
