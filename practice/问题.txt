@@ -1,14 +1,4 @@
 问题
-	 <script type="text/javascript">
-		var mycity=prompt('请问你来自的城市？');
-		document.write("你来自的城市>>"+mycity+"")
- 	 </script>
-为什么document.write("你来自的城市>>"+mycity+"")里面要用加号+mycity+才有效果？
- 
-	从新看了javascript的关键字逻辑运算符，算数运算符保留字等等
-		javascript对面方法alert()。confirm().prompt()交互方法。
-		var 变量常量等等。但是表达式总是搞不清楚里面怎么写不知道哪一个双引号具体管哪一个字符串
-	分支控制语句if if...else switch语句但是具体用不会switch
-  循环控制语句
-	while和do...while. for语句和break和continue
- 函数等等。以及练习
+	综合练习
+		编写程序，声明三个变量X，Y ,Z。使X等于字符串“hello”使Y等于数值2015；当X+y等于hello2015；且X不等于Y时Z等于
+		welcome to china!否则Z等于we are friend。

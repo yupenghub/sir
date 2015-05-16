@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>练习算术运算复合赋值运算符</title>
+<style type="text/css">
+*{margi:0px;padding:0px;}
+</style>
+<head>
+<body>
+<script>
+	var sun=80;
+	var sun1=50;
+	var sun2=sun+sun1;
+	document.write(sun+"与"+sun1+"相加的和的表达式为："+sun2+"<br />");
+	var sun2=sun-sun1;
+	document.write(sun+"与"+sun1+"相减的差的表达式为："+sun2+"<br />");
+	var sun2=sun%sun1;
+	document.write("+sun2+"+"<hr />");
+	var num=60;
+	var num1=30;
+	var num = num + num1;
+	document.write("加赋值后num的值为："+num+"<br />");
+	num-=num1;
+	document.write("减赋值后num的值为："+num+"<br />");
+	num*=num1;
+	document.write("乘赋值后num的值为："+num+"<br />");
+	num=num/num1;
+	document.write("除赋值后num的值为："+num+"<hr />");
+	var unm=54;
+	var unm1;
+	var unm1=++unm;
+	document.write("unm1=++unm运算后的值为："+unm+"<br />");
+	var unm1=--unm;
+	document.write("unm1=--unm运算后的值为："+unm+"<br />");
+	var unm1=unm++;
+	document.write("unm1=unm++运算后的值为："+unm+"<br />");
+	var unm1=unm--;
+	document.write("unm1=unm--运算后的值为："+unm+"<hr />");
+</script>
+</body>
+</html>
