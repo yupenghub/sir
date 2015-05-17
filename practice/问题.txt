@@ -1,4 +1,0 @@
-问题
-	综合练习
-		编写程序，声明三个变量X，Y ,Z。使X等于字符串“hello”使Y等于数值2015；当X+y等于hello2015；且X不等于Y时Z等于
-		welcome to china!否则Z等于we are friend。
