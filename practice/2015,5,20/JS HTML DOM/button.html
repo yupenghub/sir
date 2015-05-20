@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>改变html元素</title>
+</head>
+<body>
+<h1>点击按钮就可以出现分配</h1>
+<button onclick="myfunction()">点击我</button>
+<script>
+	function myfunction() {
+		document.getElementById("sa").innerHTML=Date();
+	}
+</script>
+<P id="sa"></p>
+</body>
+</html>

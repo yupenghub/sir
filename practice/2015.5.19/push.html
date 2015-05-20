@@ -6,13 +6,14 @@
 </head>
 <body>
 <script type="text/javascript">
-	var arr = new Array(4)
-	arr[0] = "George"
-	arr[1] = "John"
-	arr[2] = "Thomas"
-	document.write(arr + "<br />")
-	document.write(arr.push("name") + "<br />")
-	document.write(arr)
+	var arr = new Array(4);
+	arr[3] = "George";
+	arr['a'] = "John";
+	arr[2] = "Thomas";
+	alert(arr['a']);
+	document.write(arr + "<br />");
+	document.write(arr.push("name") + "<br />");
+	document.write(arr);
 </script>
 </body>
 </html>

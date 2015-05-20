@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>ifelse</title>
+</head>
+<body>
+<p>如果时间早于 10:00，会获得问候 "早上好"。</p>
+<button onclick="myfunction()">点击这里</button>
+<p id="demo"></p>
+<script>
+function myfunction() {
+	var x="";
+	var time=new Date().getHours();
+	if (time<10) {
+		x="早上好";
+	}
+	else if(time<20){
+		x="晚上好";
+	}
+	else {
+	x="你该睡觉了"
+	}
+	document.getElementById("demo").innerHTML=x;
+}
+</script>
+</body>
+</html>
