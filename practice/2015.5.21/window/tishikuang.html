@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>提示框</title>
+</head>
+<body>
+<script>
+function myfunction() {
+	var sa=prompt("你好啊","请输入你的名字");
+	if (sa!=null && sa!="") {
+		document.write("你好"+sa+"今天过得怎么样？");
+	}
+	else {
+		document.write("你输入的有错误");
+	}
+}
+</script>
+<button type="button" onclick="myfunction()">点击我显示</button>
+</body>
+<html>
