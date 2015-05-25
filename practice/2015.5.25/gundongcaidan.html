@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>滚动菜单</title>
+<style type="text/css">
+a{text-decoration:none;}
+</style>
+</head>
+<body>
+<script>
+var daiyin=7
+	neirong=new Array();
+	lianjie=new Array();
+	neirong[0]="http://www.baidu.com.cn";
+	neirong[1]="http://www.sina.com";
+	neirong[2]="http://www.baidu.com";
+	neirong[3]="http://www.baidu.com";
+	neirong[4]="http://www.baidu.com";
+	neirong[5]="http://www.baidu.com";
+	neirong[6]="http://www.baidu.com";
+	lianjie[0]="百度";
+	lianjie[1]="新浪";
+	lianjie[2]="百度";
+	lianjie[3]="新浪";
+	lianjie[4]="百度";
+	lianjie[5]="新浪";
+	lianjie[6]="百度";
+	document.write("<marquee scrollamount='2' scrolldelay='0.1' direction='left' style='background:#fff;width:150px;height:150px;'");
+	for(i=0;i<daiyin;i++) {
+	document.write("<a href="+neirong[i]+"target='_blank'>");
+	document.write(lianjie[i]+"&nbsp;&nbsp;&nbsp;");
+	}
+	document.write("<marquee>");
+</script>
+</body>
+</html>
