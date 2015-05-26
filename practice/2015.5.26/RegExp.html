@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>正则表达式</title>
+</head>
+<body>
+<script>
+	var str="this is my best friend";
+	var patt1=/[a-h]/g;
+	document.write(str.match(patt1)+"&nbsp;&nbsp;&nbsp;查找方括号里面的字符a-h"+"<br />");
+	var str="this is my best friend";
+	var pattern=/[^a-h]/g;
+	document.write(str.match(pattern)+"&nbsp;&nbsp;&nbsp;查找不是方括号里面a-h的字符^开头"+"<br />");
+	var daiyin="this is my best friend";
+	var pattern=/\w/g;
+	document.write(daiyin.match(pattern)+"&nbsp;&nbsp;&nbsp;查找单词字符小写\w开头"+"<br />");
+	var daiyin="this is my best friend!@#d%$";
+	var pattern=/\W/g;
+	document.write(daiyin.match(pattern)+"&nbsp;&nbsp;&nbsp;查找非单词字符大写\W开头"+"<br />");
+	var xieya="this is 100%!";
+	var pattern=/\d/g;
+	document.write(xieya.match(pattern)+"&nbsp;&nbsp;&nbsp;查找数字小写\d开头"+"<br />");
+	var daiyin="this is 100%!";
+	var pattern=/\D/g;
+	document.write(xieya.match(pattern)+"&nbsp;&nbsp;&nbsp;查找非数字字符大写\D开头"+"<br />");
+	var str="this is my best friend";
+	var patt1=/\s/g;
+	document.write(str.match(patt1)+"&nbsp;&nbsp;&nbsp;查找空格小写\s表示"+"<br />");
+	var daiyin="this is my best friend";
+	var pattern=/\S/g;
+	document.write(daiyin.match(pattern)+"<br />");
+	var xiaoyang="xieya";
+	var daiyin=/x\b/;
+	var sa=/ie\b/;
+	var sd=/ey\b/;
+	var ss=/a\b/;
+	document.write(xiaoyang.match(daiyin)+"<br />");
+	document.write(xiaoyang.match(sa)+"<br />");
+	document.write(xiaoyang.match(sd)+"<br />");
+	document.write(xiaoyang.match(ss)+"&nbsp;&nbsp;&nbsp;/b用于查找单词的边界通常用于查找单词的结尾或者开头"+"<br />");
+	var daiyin="www.w3baidu.com";
+	var xieya=/\B3baidu/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;大写/B查找非单词边界匹配类型上一个和下一个必须是相同的即同时是单词或者必须同时是非单词"+"<br />");
+	var daiyin="www.w3baidu.com\n this is mt friend";
+	var xieya=/\n/g;
+	document.write(daiyin.search(xieya)+"&nbsp;&nbsp;&nbsp;小写斜杠n匹配换行符"+"<br />");
+	var daiyin="hahahaha nihao a wo de pengyou"
+	var xieya=/\a+/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;量词对至少一个a进行查找\a+表示<br />");
+	var daiyin="hellooooo word welcome oh oh";
+	var xieya=/o*/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;量词匹配一个或多个o直接量语法/o*/"+"<br />");
+	var daiyin="2 20 200 2000 20000";
+	var xieya=/20?/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;匹配任何包含0个或一个的20的字符串直接表达式/20？/<br />");
+	var daiyin="2 20 200 2000 20000";
+	var xieya=/\d{3}/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;n{x}匹配包含x个n序列的字符串X必须是数字上面的例子是查找3位数的字符串进行全局匹配<br />");
+	var daiyin="2 20 200 2000 20000 200000";
+	var xieya=/\d{3,4}/g; 
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;n{x,y}匹配x和Y个N序列的字符串X Y必须是数字上面的例子表示查找3位数4位数字符串进行全局匹配<br />");
+	var daiyin="2 20 200 2000 20000 200000";
+	var xieya=/\d{4}/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;表达式/n{x}/例子表示对字串至少包含4位数字进行全局匹配<br />");
+	var daiyin="this is my friend friennnd";
+	var xieya=/nd$/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;对字符串为nd的进行全局匹配直接量表达式/n$/<br />");
+	var daiyin="this this my friend friennnd";
+	var xieya=/^th/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;匹配任何为th开头的字符串进行全局匹配直接量表达式/^th/<br />")
+	var daiyin="this all my friend friennnd this all my this all my this all my";
+	var xieya=/is(?= all)/g;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;对紧跟is其后的all进行全局匹配<br />");
+	var daiyin="IS this all my friend friennnd this all my this all my this all my is";
+	var xieya=/is(?! all)/gi;
+	document.write(daiyin.match(xieya)+"&nbsp;&nbsp;&nbsp;对没有紧跟all的IS 或者is进行全局匹配");
+
+</script>
+</body>
+</html>
