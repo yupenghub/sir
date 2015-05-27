@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>正则表达式</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<script>
+function daiyin(tel) {
+	var ss=/^1\d{10}$/g;
+	if (ss.test(tel)) {
+	alert("验证正确");
+	}
+	else {
+	alert("验证错误")
+	}
+
+}
+daiyin("13509445409");
+daiyin("135094454091")
+function xieya(num) {
+	var sf= /^0\d{2,3}-?\d{7,8}$/g;
+	if(sf.test(num)){
+	alert("验证正确");
+	return true;
+	}
+	else {
+	alert("验证错误");
+	return false;
+	}
+}
+xieya("023-40815018");
+xieya("02340815018");
+xieya("2301929292929");
+document.write("这是正确的移动号码13509445409<br />");
+document.write("这是错误的移动号码135094454091<br />");
+document.write("这是正确的座机号码023-40815018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />这也是正确的座机电话号码02340815018<br />");
+document.write("这是错误的座机电话号码2301929292929<br />");
+</script>
+</body>
+</html>

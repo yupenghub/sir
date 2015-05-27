@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<title>验证表单</title>
+<meta charset="utf-8" />
+<script>
+	function daiyin() {
+		var form=document.getElementById("biaodan");
+		if(form.yonghuming.value=="") {
+		document.getElementById("cuowu").innerHTML="用户名错误";
+		return false;
+		}
+		if (form.haoma.value=="")
+		{ document.getElementById("cuowu").innerHTML="电话号码不能为空";
+		return false;
+		}
+		var tel=/^1\d{10}$/;
+		if (tel.test(form.haoma.value))
+		{document.getELementById("cuowu").innerHTML="电话号码不是11位";
+		return false;
+		}
+		if (form.mima.value=="")
+		{ document.getElementById("cuowu").innerHTML="密码不能为空";
+		return false;
+		}
+		return true;
+	}
+</script>
+</head>
+<body>
+<form id="biaodan" method="post" action="#" onsubmit="return daiyin();">
+	<table>
+		<tr>
+			<td>请输入用户名：</td>
+			<td><input type="text" name="yonghuming" id="yonghuming"></td>
+		</tr>
+		<tr>
+			<td>请输入电话号码</td>
+			<td><input type="text" name="haoma" id="haoma"></td>
+		</tr>
+		<tr>
+			<td>请输入密码</td>
+			<td><input type="text" name="mima" id="mima"></td>
+		</tr>
+		<tr>
+			<td>请确认密码</td>
+			<td><input type="text" name="queren" id="queren"></td>
+		</tr>
+		<tr>
+			<td id="cuowu" style="height:30px;width:100px;text-align:center;"></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="提交" onclick="daiyin"></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

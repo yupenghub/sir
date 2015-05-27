@@ -8,7 +8,7 @@ button{margin-left:120px;margin-top:10px;}
 p {font-size:12px;margin:10px 120px;}
 </style>
 <script>
-function check() {
+function daiyin() {
 	var form=document.getElementById("biaodan");
 	if(form.name.value=="") {
 	document.getElementById("checkinfo").innerHTML="姓名不能为空";
@@ -27,7 +27,7 @@ function check() {
 </script>
 </head>
 <body>
-<form id="biaodan" method="post" action="#" onsubmit="return check();">
+<form id="biaodan" method="post" action="#" onsubmit="return daiyin();">
 	<table style="width:600px;hieght:300px;border:0px solid red;">
 		<tr>
 			<td>&nbsp;&nbsp;&nbsp;&nbsp;你的姓名(*)</td>
@@ -49,7 +49,7 @@ function check() {
 			<td colspan="2" id="checkinfo" style="height:30px;"></td>
 		</tr>
 	</table>
-		<input type="submit" value="提交报名" onclick="check()">
+		<input type="submit" value="提交报名" onclick="daiyin()">
 </form>
 <p>姓名不能为空</p>
 </body>

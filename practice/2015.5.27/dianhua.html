@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>电话</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<script>
+function  daiyin(tel) {
+	var ss=/^1\d{10}$/g;
+	if(ss.test(tel)) {
+	alert("验证正确");
+	return true;
+	}
+	else{
+	alert("验证错误");
+	return false;
+	}
+}
+daiyin("13594066698");
+daiyin("135940666980")
+</script>
+</body>
+</html>

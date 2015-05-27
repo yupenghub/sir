@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>验证邮箱号码</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<script>
+function daiyin(youxiang) {
+	var tengxun=/^(.*-*\w)+@(\w-?)+(.\w{2,})+$/g;
+	if (tengxun.test(youxiang)) {
+		alert("邮箱验证正确");
+	}
+	else {
+	alert("邮箱验证不正确请重新输入验证");
+	}
+}
+daiyin("dalfjsajhf@asdk23.com");
+daiyin("349867227@qq.com");
+daiyin("349867227qq.com");
+document.write("这是正确的邮箱dalfjsajhf@asdk23.com<br />或者这也是正确的349867227@qq.com<br />");
+document.write("这是错误的邮箱因为没有@&nbsp;&nbsp;&nbsp;&nbsp;349867227qq.com");
+</script>
+</body>
+</html>
