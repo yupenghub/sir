@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>getElementById</title>
+<meta charset="utf-8" />
+<script>
+function daiyin() {
+	alert(document.getElementById("biaoge").innerHTML="变~~~");
+	alert(document.getElementById("biaoge1").innerHTML="变化~~~");
+
+}
+</script>
+</head>
+<body>
+<table>
+	<tr id="biaoge">
+		<td>第一次</td>
+		<td>第二次</td>
+	</tr>
+	<tr id="biaoge1">
+		<td>第3次</td>
+		<td>第4次</td>
+	</tr>
+</table>
+<input type="submit" value="点击我" onclick="daiyin()">
+</body>
+</html>

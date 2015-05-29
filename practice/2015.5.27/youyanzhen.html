@@ -7,19 +7,29 @@
 <body>
 <script>
 function youxiang(daiyin) {
+	var form=document.getElementById("biaodan");
 	var xieya=/^(.*-*\w)+@(\w-?)+(.\w{2,})$/;
-	alert(daiyin);
 	if (xieya.test(daiyin)) {
 		alert("恭喜验证正确");
+		return true;
 	}
 	else{
 		alert("对不起验证错误请重新输入")
+		return false;
+	}
+	var daiyin=/^1\d{10}$/;
+	if (daiyin.test(xieya)) {
+	alert("验证正确")
+	}
+	else {
+	alert("验证错误");
 	}
 }
 </script>
-<form name="ffff">
-确认邮箱：<input type="text" name="name" onblur="youxiang(this.value);"><br />
-<input type="submit" name="1" value="点击验证邮箱">
+<form name="ffff" id="biaodan">
+确认邮箱：<input type="text" name="name"><br />
+电话号码：<input type="text" name="sa"><br />
+<input type="submit" name="1" value="点击验证邮箱" onclick="youxiang();">
 </form>
 <p style="font-weight:bold;font-size:20px;">我不清楚怎么结合表单验证输入邮箱电话号码等验证</p>
 </body>

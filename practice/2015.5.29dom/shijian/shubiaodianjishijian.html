@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>鼠标点击事件</title>
+</head>
+<body>
+<div onmousedown="daiyin(this)" 
+onmouseup='ss(this)'style="background:red;height:200px;width:300px;font-size:30px;font-weight:bold;text-align:center;color:#fff;line-height:180px;">请点击鼠标</div>
+<script>
+function daiyin(xieya) {
+xieya.style.backgroundColor="yellow";
+xieya.innerHTML="释放鼠标"
+}
+function ss(xieya) {
+xieya.style.backgroundColor="red";
+xieya.innerHTML="请按下按钮";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>验证</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<script>
+function daiyin() {
+	var form=document.getElementById("daiyin");
+	var xieya=/^1\d{10}$/;
+	if (xieya.test()) {
+		alert("恭喜验证正确")
+	}
+	else {
+		alert("Sorry验证错误");
+	}
+	var xiaodai=/^(.*-*\w)+@(\w-?)+(.\w{2,})$/;
+	if (xiaodai.test()) {
+		alert("恭喜验证正确")
+	}
+	else {
+		alert("Sorry验证错误");
+	}
+}
+daiyin("13509445409");
+
+</script>
+<form id="biaodan" name="daiyin">
+	电话号码：<input type="text" name="dianhua"><br />
+	邮箱验证：<input type="text" name="yx"><br />
+	<input type="submit" value="点击我">
+</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>css按钮改变时间</title>
+</head>
+<body>
+<p id ="shijian"></p>
+<button onclick="daiyin()" id="xieya">点击我显示时间</button>
+<script>
+document.getElementById("xieya").onclick=function(){daiyin()};
+function daiyin() {
+	document.getElementById("shijian").innerHTML=Date()
+}
+</script>
+</body>
+</html>
