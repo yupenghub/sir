@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>鼠标事件</title>
+</head>
+<body>
+<div onmouseover="daiyin(this)" onmouseout="ss(this)" style="background:red;height:100px;width:300px;font-size:30px;line-height:100px;font-weight:bold;text-align:center;color:white;margin:auto;">鼠标移动试试
+</div>
+<div onmouseup="sm(this)" onmousedown="xiangzao(this)" style="background:blue;height:100px;width:300px;font-size:30px;line-height:100px;font-weight:bold;text-align:center;color:white;margin:auto;margin-top:20px;">点击鼠标</div>
+<script>
+function daiyin(xieya) {
+	xieya.innerHTML="谢谢";
+}
+function ss(sf) {
+	sf.innerHTML="鼠标移动试试";
+}
+function sm(xiaodai) {
+	xiaodai.style.background="blue";
+	xiaodai.innerHTML="点击鼠标"
+}
+function xiangzao(feizao) {
+	feizao.style.background="yellow";
+	feizao.innerHTML="释放鼠标"
+}
+</script>
+</body>
+</html>
