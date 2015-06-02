@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>animate</title>
+<script src="../jqury.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function() {
+	$("#my").click(function() {
+	$("#ss").animate({
+		height:'toggle'
+		});
+	});
+});
+$(document).ready(function() {
+	$("#mys").click(function() {
+		$("#sss").animate({
+			width:'toggle'
+		});
+	});
+});
+</script>
+<input id="my" type="button" value="向上关闭或者显示">
+<div id="ss" style="background:red;height:100px;width:200px;position:absolute;">
+<p>欢迎来到北京</p>
+</div>
+<input id="mys" type="button" value="向左关闭或者显示">
+<div id="sss" style="background:blue;height:100px;width:200px;position:absolute;margin-top:200px;">
+<p>欢迎来到北京</p>
+</body>
+</html>

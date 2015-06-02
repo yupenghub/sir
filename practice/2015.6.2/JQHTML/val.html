@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>val</title>
+<script src="../../jquery.js"></script>
+</head>
+<script>
+$(document).ready(function() {
+	$("#daiyin").click(function() {
+		alert("value的值是："+$("#sa").val())
+	});
+	$("#daiyin1").click(function() {
+		alert($("#xiaodai").attr("style"));
+	});
+});
+</script>
+<body>
+<button id="daiyin">点击获取value的值</button>
+<button id="daiyin1">点击获取属性值</button>
+<input id="sa" type="text" value="你好" style="background:red;">
+<p id="xiaodai" style="background:red;width:100px;">戴胤</p>
+</body>
+</html>

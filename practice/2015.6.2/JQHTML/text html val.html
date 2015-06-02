@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>html text </title>
+<script src="../../jquery.js"></script>
+</head>
+<script>
+$(document).ready(function() {
+	$("#bu").click(function() {
+		alert("text:"+$("#sa").text());
+	})
+	  $("#buhao").click(function(){
+    alert("HTML: " + $("#sa").html());
+	});
+});
+</script>
+<body>
+<p id="sa">你好</p>
+<button id="bu">点击显示文本</button>
+<button id="buhao">点击显示HTML</button>
+</body>
+</html>

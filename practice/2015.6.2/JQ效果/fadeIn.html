@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>toggle</title>
+<script src="../jqury.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function() {
+	$("#sd").click(function() {
+		$("#ss").fadeIn(1000,function() {
+			alert("你好");
+		});
+	})
+})
+</script>
+<h1 id='ss' style="display:none">这是一个标题</h1>
+<input id="sd" type="submit" value="显示隐藏">
+</body>
+</html>

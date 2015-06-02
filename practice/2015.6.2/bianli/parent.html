@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>parent()方法</title>
+<meta charset="utf-8" />
+<style type="text/css">
+.ancestors *{ display: block;border: 2px solid blue;padding: 5px;margin: 25px;color:red;}
+</style>
+<script src="../../jquery.js"></script>
+<script>
+$(document).ready(function() {
+	$("span").parent().css({"color":"yellow","border":"5px solid red"});
+});
+</script>
+</head>
+<body class="ancestors">
+  <div style="width:500px;">div (曾祖父)
+    <ul>ul (祖父)  
+      <li>li (直接父)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</body>
+</html>

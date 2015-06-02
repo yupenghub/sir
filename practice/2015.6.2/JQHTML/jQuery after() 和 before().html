@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>prepend</title>
+<script src="../../jquery.js"></script>
+</head>
+<script>
+$(document).ready(function() {
+	$("#ss").click(function() {
+		$("div").before("<b>你好</b>");
+	});
+	$("#sa").click(function() {
+		$("div").after("<i>你好</i>");
+	});
+});
+</script>
+<body>
+<div style="color:#fff;background:red;height:100px;width:200px;line-height:100px;text-align:center;font-size:30px;font-weight:bold;">德玛西亚</div>
+<button id="ss">前面增加</button>
+<button id="sa">后面增加</button>
+</body>
+</html>

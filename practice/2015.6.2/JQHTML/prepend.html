@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>prepend</title>
+<script src="../../jquery.js"></script>
+</head>
+<script>
+$(document).ready(function() {
+	$("#ss").click(function() {
+		$("p").prepend("<p>闯尼玛个鬼哦</p>");
+	});
+	$("#sa").click(function() {
+		$("ol").prepend("<li><b>闯尼玛个鬼哦</b></li>");
+	});
+});
+</script>
+<body>
+<p>德玛西亚盖伦</p>
+<ol>
+	<li>你好</li>
+</ol>
+<button id="ss">增加文本</button>
+<button id="sa">增加列表</button>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>fadeTo</title>
+<script src="../jqury.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function() {
+	$("#my").click(function() {
+	$("#ss").slideUp("slow");
+	});
+});
+</script>
+<input id="my" type="button" value="slideDown">
+<div id="ss" style="background:red;height:500px;width:1000px;margin:10 10;">
+<p>欢迎来到北京</p>
+<p>欢迎来到重庆</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>多个JQuery方法</title>
+<script src="../jqury.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function() {
+	$("#my").click(function() {
+		$("#daiyin").css("color","blue").slideUp(1000).slideDown(1000);
+	});
+});
+</script>
+<button id="my">点击我</button>
+<p id="daiyin">JQuery好玩</p>
+</body>
+</html>

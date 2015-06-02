@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>toggleClass</title>
+<script src="../../jquery.js"></script>
+<style type="text/css">
+.blue{color:blue;}
+</style>
+</head>
+<script>
+$(document).ready(function() {
+	$("#ss").click(function() {
+		$("h1,h2,p").toggleClass("blue");
+	});
+});
+</script>
+<body>
+<h1>的吗</h1>
+<h2>西亚</h2>
+<P class="sb">你好</p>
+<P class="sa">你好</p>
+<button id="ss">改变CSS</button>
+</body>
+</html>

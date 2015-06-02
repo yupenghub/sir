@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>改变 text html val</title>
+<script src="../../jquery.js"></script>
+</head>
+<script>
+$(document).ready(function() {
+	$("#aa").click(function() {
+		$("#dema").text("盖伦");
+	});
+	$("#bb").click(function() {
+		$("#nuoke").html("<b>小学生之手</b>");
+	});
+	$("#cc").click(function() {
+		$("#xiya").val("我的朋友！");
+	});
+});
+</script>
+<body>
+<p id="dema">德玛西亚</p>
+<p id="nuoke">诺克萨斯</p>
+<input id="xiya"type="text" value="你好"><br />
+<button id="aa">设置文本</button>
+<button id="bb">设置HTML</button>
+<button id="cc">设置设置值</button>
+</body>
+</html>
