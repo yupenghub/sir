@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>隐藏</title>
+<script src="../jquery.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function() {
+	$("#sa").click(function() {
+	$("p").hide(1000);
+	});
+	$("#is").click(function() {
+	$("p").show(1000);
+	})
+})
+</script>
+<P id="ss">隐藏文本</p>
+<button id="sa">点击隐藏</button>
+<button id="is">点击隐藏</button>
+</body>
+</html>

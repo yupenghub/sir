@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>练习菜单</title>
+<script src="../jquery.js"></script>
+<style type="text/css">
+*{margin:0px;padding:0px;}
+a{text-decoration:none;color:#fff;}
+a:hover{color:red;}
+.clear{clear:both}
+#sa{background:#184F8B;height:300px;width:648px;display:none;}
+li{list-style-type:none;background:#64A6EA;float:left;font-size:16px;color:#fff;line-height:43px;text-align: center;margin:0px auto;padding:10px 30px;}
+#sa li{color:red;}
+</style>
+</head>
+<body>
+<script>
+	$(document).ready(function() {
+		$("li").mouseover(function() {
+			$("#sa").show();
+		});
+		$("li").mouseout(function() {
+			$("#sa").hide();
+		})
+		$("#sa").mouseover(function() {
+			$("#sa").show();
+		});
+		$("#sa").mouseout(function() {
+			$("#sa").hide();
+		})
+	});
+</script>
+	<ul>
+		<li><a href="#" class="ss">首页</a></li>
+		<li><a href="#" class="ss">分类</a></li>
+		<li><a href="#" class="ss">特色百科</a></li>
+		<li><a href="#" class="ss">用户</a></li>
+		<li><a href="#" class="ss">权威合作</a></li>
+		<li><a href="#" class="ss">手机百科</a></li>
+	</ul>
+	<div class="clear"></div>
+<div id="sa">
+	<a href="#">德玛西亚</a>
+	<a href="#">德玛西亚</a>
+	<a href="#">德玛西亚</a>
+	<a href="#">德玛西亚</a>
+	<a href="#">德玛西亚</a>
+
+</div>
+</body>
+</html>

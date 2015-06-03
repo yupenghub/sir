@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>:selected</title>
+<script src="../../jquery.js"></script>
+</head>
+<body>
+<script>
+	$(document).ready(function() {
+		$("#ss").click(function() {
+			$(":selected").hide();
+		});
+	});
+</script>
+<select multiple="multiple">
+<option>德玛西亚</option>
+<option>诺克萨斯</option>
+<option>弗雷尔卓德</option>
+<option>哇罗兰大陆</option>
+<option>德玛西亚</option>
+<option>诺克萨斯</option>
+<option>弗雷尔卓德</option>
+<option>哇罗兰大陆</option>
+</select>
+<button id="ss">点击我隐藏下拉选项</button>
+</body>
+</html>

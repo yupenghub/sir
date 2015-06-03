@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>:animated</title>
+<script src="../../jquery.js"></script>
+<style type="text/css">
+div{background:red;height:100px;width:200px;margin:10px 10px;}
+</style>
+</head>
+<body>
+<script>
+$(document).ready(function() {
+	function daiyin() {
+		$("#ss").animate({width:300},"slow");
+		$("#ss").animate({width:200},"slow",daiyin)
+	}
+	$("#sa").click(function() {
+		$(":animated").css("background","yellow");
+	});
+});
+</script>
+<div></div>
+<div id="ss"></div>
+<div></div>
+<input type="button" value="点击我" id="sa">
+</body>
+</html>

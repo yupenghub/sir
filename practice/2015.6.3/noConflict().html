@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>noConflict()</title>
+<script src="../jquery.js"></script>
+</head>
+<body>
+<script>
+jQuery(document).ready(function() {
+	jQuery("#ss").click(function() {
+		jQuery("h1").toggle();
+	});
+});
+	var daiyin=$.noConflict();
+		daiyin(document).ready(function() {
+			daiyin("#sa").click(function() {
+				daiyin("h2").toggle();
+			});
+		});
+</script>
+<h1>你好</h1>
+<input type="button" id="ss" value="点击我">
+<h2>德玛西亚</h2>
+<input type="button" id="sa" value="点击我">
+</body>
+</html>
