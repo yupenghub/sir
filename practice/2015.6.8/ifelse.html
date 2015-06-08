@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>if else</title>
+</head>
+<body>
+<button onclick="daiyin()">点击我</button>
+<div id="ss"></div>
+<script>
+	function daiyin() {
+		var xieya="";
+		var xiaodai=new Date().getHours();
+		if(xiaodai<10) {
+			xieya="今天是美好的一天";
+		};
+		else if(xiaodai<20) {
+			xieya="晚上好";
+		};
+		else {
+			xieya="晚上好";
+		};
+		document.getElementByIDd("ss").innerHTML=xieya;
+	};
+	
+</script>
+</body>
+</html>

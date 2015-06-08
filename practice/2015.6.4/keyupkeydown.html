@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>keyupkeydown</title>
+<script src="../jquery.js"></script>
+</head>
+<body>
+<script>
+	$(document).ready(function() {
+		$("#daiyin").keydown(function() {
+			$("#daiyin").css("background","red");
+		});
+		$("#daiyin").keyup(function() {
+			$("#daiyin").css("background","blue");
+		});
+	});
+</script>
+<input type='text' name="xiaodai" id="daiyin">
+</body>
+</html>

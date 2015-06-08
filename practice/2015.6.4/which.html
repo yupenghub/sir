@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utrf-8" />
+<title>which</title>
+<script src="../jquery.js"></script>
+</head>
+<body>
+<script>
+	$(document).ready(function() {
+		$("input").keydown(function(a) {
+			$("p").html("Key:"+a.which);
+		});
+	});
+</script>
+<input name="xiaodai" type="text">
+<p></p>
+</body>
+</html>

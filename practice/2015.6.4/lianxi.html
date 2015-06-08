@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>练习</title>
+<script src="../jquery.js"></script>
+<style type="text/css">
+.sc{background:yellow;height:30px;width:200px;}
+.se{background:green;height:30px;width:200px;}
+.sa{background:red;height:30px;width:200px;}
+.sb,.sd,.sf{background:blue;height:100px;width:200px;display:none;}
+</style>
+<script>
+	$(document).ready(function() {
+		$(".sa").mouseover(function() {
+			$(".sb").slideDown(1000);
+		});
+		$(".sb").mouseout(function() {
+			$(".sb").slideUp(1000);
+		});
+	});
+</script>
+</head>
+<body>
+<div class="sa"></div>
+<div class="sb"></div>
+<div class="sc"></div>
+<div class="sd"></div>
+<div class="se"></div>
+<div class="sf"></div>
+</body>
+</html>

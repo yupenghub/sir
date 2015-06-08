@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>dblclick</title>
+<script src="../jquery.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function() {
+	$("button").dblclick(function() {
+		$("p").toggle(1000);
+	});
+});
+</script>
+<button>双击我触发dblcilick时间</button>
+<p>德玛西亚</p>
+</body>
+</html>

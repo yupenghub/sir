@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>die()</title>
+<script src="../jquery.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function(){
+  $("p").live("click",function(){
+    $(this).slideToggle();
+  });
+  $("button").click(function(){
+    $("p").die();
+  });
+});
+</script>
+<button>双击我触发die()</button>
+<p>德玛西亚</p>
+<p>德玛西亚</p>
+<p>德玛西亚</p>
+<p>德玛西亚</p>
+<p>德玛西亚</p>
+</body>
+</html>

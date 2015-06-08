@@ -18,7 +18,7 @@ li{list-style-type:none;background:#64A6EA;float:left;font-size:16px;color:#fff;
 <script>
 	$(document).ready(function() {
 		$("li").mouseover(function() {
-			$("#sa").show();
+			$("#sa").slideDown(1000);
 		});
 		$("li").mouseout(function() {
 			$("#sa").hide();
@@ -28,8 +28,11 @@ li{list-style-type:none;background:#64A6EA;float:left;font-size:16px;color:#fff;
 		});
 		$("#sa").mouseout(function() {
 			$("#sa").hide();
-		})
+		});
 	});
+	var json = {"k1":"v1", "k2":"v1"};
+	var array = ["v1", "v2"];
+	alert(json['k1']);
 </script>
 	<ul>
 		<li><a href="#" class="ss">首页</a></li>

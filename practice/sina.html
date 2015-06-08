@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>新浪部分练习</title>
+<script src="jquery.js"></script>
+<style type="text/css">
+a{text-decoration:none;color:black;float:left;}
+a:hover{color:#FF8400;}
+.xiaodai{background:#EDEDED;width:1000px;margin:0 auto;height:34px;border: 1px solid #DBDEE1;text-align:center;}
+.xiaoyang{background:#EDEDED;font-size:16px;width:90px;line-height:34px;border-top: 3px solid #FF8400;margin-top:-2px;border-right: 1px solid #DBDEE1;}
+.xieya{width:1000px;display:inline-block;vertical-align: middle;margin-top:20px;}
+.xieya img {margin:1px 1px;float:left;}
+.ss{float:left;margin-left:30px;text-align:center;line-height:34px;}
+.sa{border-top: 3px solid #FF8400;margin-top:-3px;display:none;}
+.sm{display:none;}
+.xieya{display:none;margin-top:50px;}
+.sm{margin-top:50px;}
+.sm img{margin:0px 1px;}
+</style>
+<script>
+	$(document).ready(function() {
+		$(".xiaoyang").mouseover(function() {
+			$(".xieya").slideDown();
+			$(".sm").hide();
+		});
+		$(".xiaoyang").mouseout(function() {
+			$(".xieya").hide();
+		});
+		$(".xieya").mouseover(function() {
+			$(".xieya").show();
+		});
+		$(".xieya").mouseout(function() {
+			$(".xieya").hide();
+		});
+		$(".ss").mouseover(function() {
+			$(".sa").show();
+			$(".xieya").hide();
+			$(".sm").slideDown();
+		});
+		$(".sm").mouseover(function() {
+			$(".sm").show();
+		});
+		$(".sm").mouseout(function() {
+			$(".sm").hide();
+		});
+		$(".sa").mouseout(function() {
+			$(".sm").hide();
+		});
+	});
+</script>
+</head>
+<body>
+	<div class="xiaodai">
+		<div class="xiaoyang">
+			<a href="#">我爱看图</a>
+		</div>
+		<div class="ss">
+			<div class="sa"></div>
+			<a href="#">猜你喜欢</a>
+		</div>
+		<div class="xieya">
+				<a href="#"><img src="image/U2727P30DT20150608100453.jpg"></a>
+				<a href="#"><img src="image/U3093P30DT20150608095842.jpg"></a>
+				<a href="#"><img src="image/U4003P30DT20150605162434.jpg"></a>
+				<a href="#"><img src="image/U4003P30DT20150608091800.jpg"></a>
+				<a href="#"><img src="image/U2727P30DT20150608100453.jpg"></a>
+		</div>
+		<div class="sm">
+			<a href="#"><img src="image/U2727P30DT20150608100453.jpg"></a>
+			<a href="#"><img src="image/U3093P30DT20150608095842.jpg"></a>
+			<a href="#"><img src="image/U4003P30DT20150605162434.jpg"></a>
+			<a href="#"><img src="image/U4003P30DT20150608091800.jpg"></a>
+			<a href="#"><img src="image/U2727P30DT20150608100453.jpg"></a>
+		</div>
+	</div>
+</body>
+</html>
