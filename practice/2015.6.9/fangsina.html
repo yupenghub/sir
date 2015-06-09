@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>模仿sina</title>
+<script src="../jquery.js"></script>
+<style type="text/css">
+
+.txt{height:36px;width:363px;background:#EFEFEF;border:1px solid  #DBDEE1;margin:auto;}
+.lishi{height: 33px;line-height: 36px;border-right: 1px solid #DBDEE1;width:58px;text-align:center;float:left;border-left:none;border-bottom:none;}
+.wenhua{height: 33px;line-height: 36px;border-right: 1px solid #DBDEE1;text-align:center;float:left;width:58px;}
+.wenhua1{border-top: 3px solid #FF8400;width:58px;display:none;}
+.chaoji{width:166px;font-size:12px;color:#333;float:right;line-height:36px;}
+.lishi img{margin-top:22px;width:110px;}
+.lishi div{position:relative;}
+.lishi .bg{bottom:12px;background:black;height:20px;width:110px;}
+.lishi .neizhan{bottom:40px;font-size:12px;width:105px;color:#fff;}
+.liebiao{float:right;}
+.liebiao li {color:#FF8400;font-size:14px;padding:4px 0px;margin-right:15px;}
+.liebiao a{color:#333;}
+.clear{clear:both;}
+.left{width:390px;margin-left:-30px;color:#FF8400;}
+.left li{font-size:14px;margin:3px 0px;float:left;}
+.left a{color:#333;float:left;}
+.liebiao1{float:right;display:none}
+.liebiao1 li {color:#FF8400;font-size:14px;padding:4px 0px;margin-right:15px;}
+.liebiao1 a{color:#333;}
+.clear{clear:both;}
+.left1{width:390px;margin-left:-30px;color:#FF8400;display:none}
+.left1 li{font-size:14px;margin:3px 0px;float:left;}
+.left1 a{color:#333;float:left;}
+.bg1,.neizhan1,.ss{display:none;}
+.wenhua img{margin-top:22px;width:110px;}
+.wenhua div{position:relative;}
+.wenhua .bg1{bottom:12px;background:black;height:20px;width:110px;}
+.wenhua .neizhan1{bottom:40px;font-size:12px;width:105px;color:#fff;}
+a{text-decoration:none;color:black;}
+a:hover{color:#FF8400;}
+</style>
+<script>
+	$(document).ready(function() {
+		$(".wenhua").mouseover(function() {
+			$(".sm,.bg,.neizhan,.liebiao,.left").hide();
+			$(".wenhua1,.ss,.bg1,.neizhan1,.liebiao1,.left1").show();
+		});
+		$(".lishi").mouseover(function() {
+			$(".wenhua1,.ss,.bg1,.neizhan1,.liebiao1,.left1").hide();
+			$(".sm,.bg,.neizhan,.liebiao,.left").show();
+		});
+	});
+</script>
+</head>
+<body>
+<div class="txt">
+	<div class="lishi">
+		<a href="#">历史</a>
+		<img src="image/U3093P30DT20150609093223.jpg" class="sm">
+		<div class="bg"></div>
+		<div class="neizhan">内战前夜国军生活</div>
+	</div>
+	<div class="wenhua">
+		<div class="wenhua1"></div>
+		<a href="#">文化</a>
+		<img src="image/U10606P30DT20150601113330.jpg" class="ss" style="margin-left:-65px;">
+		<div class="bg1" style="margin-left:-59px;"></div>
+		<div class="neizhan1" style="margin-left:-59px;">少林武僧苦练功夫</div>
+	</div>
+	<div class="chaoji">
+		<a href="#">史海钩沉</a>
+		<a href="#">历史图片</a>
+		<a href="#">策划</a>
+		<a href="#">专栏</a>
+	</div>
+	<div class="clear"></div>
+	<div class="liebiao">
+		<ul>
+			<li><a href="#">汉武帝与中国国家雏形的形成</a></li>
+			<li><a href="#">袁世凯称当了皇帝后第一个要杀谁</a></li>
+			<li><a href="#">二战被摧残后日本人真实生活(图)</a></li>
+			<li><a href="#">伊斯坦布尔：回到中国的道路</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="left">
+		<ul>
+			<li><a href="#">统一内驱力:中华第一帝国的建立 清初皇室盛行人殉制</a></li>
+			<li><a href="#">诸葛亮为什么一定要杀马谡 东条英机上绞架时泪流满面</a></li>
+			<li><a href="#">改革红人步鑫生的大起大落 古代人爱送什么做定情信物 </a></li>
+			<li><a href="#">炮制侵华理论的"纳粹主义教父" 帝王冠冕为何悬挂珠帘</a></li>
+			<li><a href="#">清朝督抚一掐架皇帝也犯愁 珍珠港遭袭是否为苦肉计</a></li>
+			<li><a href="#">近亲结婚致沙俄王朝衰败 辛亥前后宗教仪式成革命工具</a></li>
+			<li><a href="#">慈禧反对袁世凯废除军机处 乾隆版一带一路:中俄大博弈</a></li>
+			<li><a href="#">皆决于上:秦朝发明的国家方式 平型关战役的六个细节</a></li>
+		</ul>
+	</div>
+	<div class="liebiao1">
+		<ul>
+			<li><a href="#">漫话鲁迅：现代中国最痛苦的灵魂</a></li>
+			<li><a href="#">张国荣，人生没有你真的会不同</a></li>
+			<li><a href="#">李银河：女人，不是一种性别</a></li>
+			<li><a href="#">我们还能坐廉价航空公司吗？</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="left1">
+		<ul>
+			<li><a href="#">楼兰古城曾多次销声匿迹 曹操雷人语：赤壁孤烧船自退</a></li>
+			<li><a href="#">诸葛亮在荆州究竟是个多大的官 曾国藩哪点不如洪秀全</a></li>
+			<li><a href="#">旧上海三大黑帮头目的结局 "相貌异常"的隋文帝长啥样</a></li>
+			<li><a href="#">日本“百人斩”部队下场 建国初为何发行“3元人民币”</a></li>
+			<li><a href="#">古代人怎样发现时间的秘密 近亲结婚将不幸降临俄沙皇</a></li>
+			<li><a href="#">光绪生父何以取代恭亲王 大员刘坤一被师爷敲诈四万两</a></li>
+			<li><a href="#">珍珠港遭袭是美军苦肉计？ 南京建管理所宽待上万日侨</a></li>
+			<li><a href="#">古代也招军事音乐等特长生 古人怎么坐才叫"坐有坐相"</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

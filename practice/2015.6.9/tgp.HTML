@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<script src="../jquery.js"></script>
+<meta charset="utf-8" />
+<title>TGP腾讯游戏插件</title>
+<style type="text/css">
+.daiyin{width:618px;margin:auto;}
+.xiaodai1{display:none;}
+.xiaodai2{display:none;}
+.xiaodai3{display:none;}
+.xiaodai4{display:none;}
+.xieya{width:630px;margin:auto;float:left;font-size:14px;margin-top:-5px;display:none;}
+.xiaoxie{float:left;text-align:center;}
+.xiaoxie1{float:left;margin-left:2px;text-align:center;}
+.xiaoxie2{float:left;margin-left:2px;text-align:center;}
+.xiaoxie3{float:left;margin-left:2px;text-align:center;}
+.xiaoxie4{float:left;margin-left:2px;text-align:center;}
+.sa{background:black;width:124px;height:24px;opacity:0.4;margin-top:-20px;}
+.s1a{background:black;width:112px;height:24px;opacity:0.4;margin-top:-20px;}
+</style>
+<script>
+	$(document).ready(function() {
+		$(".daiyin").mouseover(function() {
+			$(".xieya").slideDown(500);
+		});
+		$(".xieya").mouseover(function() {
+			$(".xieya").show();
+		});
+		$(".daiyin,.xieya").mouseout(function() {
+			$(".xieya").hide();
+		});
+		$(".xiaoxie1").mouseover(function() {
+			$(".xiaodai,.xioadai2,.xiaodai3,.xiaodai4").hide();
+			$(".xiaodai1").show();
+		});
+		$(".xiaoxie").mouseover(function() {
+			$(".xiaodai1,.xiaodai2,.xiaodai3,.xiaodai4").hide();
+			$(".xiaodai").show();
+		});
+		$(".xiaoxie2").mouseover(function() {
+			$(".xiaodai,.xiaodai1,.xiaodai3,.xiaodai4").hide();
+			$(".xiaodai2").show();
+		});
+		$(".xiaoxie3").mouseover(function() {
+			$(".xiaodai,.xiaodai1,.xiaodai2,.xiaodai4").hide();
+			$(".xiaodai3").show();
+		});
+		$(".xiaoxie4").mouseover(function() {
+			$(".xiaodai,.xiaodai1,.xiaodai2,.xiaodai3").hide();
+			$(".xiaodai4").show();
+		});
+	});
+</script>
+</head>
+<body>
+	<div class="daiyin">
+		<a href="#" class="xiaodai"><img src="image/daye.jpg"></a>
+		<a href="#" class="xiaodai1"><img src="image/zhibo.jpg"></a>
+		<a href="#" class="xiaodai2"><img src="image/界面.jpg"></a>
+		<a href="#" class="xiaodai3"><img src="image/aaa.jpg"></a>
+		<a href="#" class="xiaodai4"><img src="image/QQ截图20150609162119.jpg"></a>
+		<div class="xieya">
+			<div class="xiaoxie">
+				LPL夏季赛最强打野
+				<div class="sa"></div>
+			</div>
+			<div class="xiaoxie1">
+				电竞女神邀请赛
+				<div class="sa"></div>
+			</div>
+			<div class="xiaoxie2">
+				全新游戏界面
+				<div class="s1a"></div>
+			</div>
+			<div class="xiaoxie3">
+				深度揭秘韩国电竞
+				<div class="sa"></div>
+			</div>
+			<div class="xiaoxie4">
+				小智说脏话就送钱
+				<div class="sa"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
